@@ -1,7 +1,7 @@
 # melrose-for-emacs
 Emacs extension for the MIDI programming tool [Melrōse](https://github.com/emicklei/melrose).
 
-The extensions loads `.mel` and `.melrose` files with `melrose-mode` which adds the following bindings to the keymap:
+The extension loads `.mel` and `.melrose` files with `melrose-mode`, adding the following bindings to the keymap:
 
 - ("C-c C-e" . #'melrose-eval)
 - ("C-c C-p" . #'melrose-eval-and-play)
@@ -26,4 +26,13 @@ Clone repository, add it to your `load-path` and load the extension with
 
 Start the Melrōse language server by running `melrose` from a terminal prompt. By default it listens on port 8118 on the localhost.
 
-Open any `.mel` or `.melrose` files in Emacs and send requests to the language server. Receive midi in your favorite DAW or MIDI to OSC interface driving your modular rack. dance, go nuts.
+Open any `.mel` or `.melrose` files in Emacs and send requests to the language server. Receive MIDI in your favorite DAW or MIDI-to-OSC interface driving your modular rack (I for one can't wait trying this out with Expert Sleepers ES-3).
+
+dance, go nuts /
+
+## Roadmap
+
+- Implement melrose-eval-and-inspect
+- Add font-lock (syntax highlighting)
+- Start melrose language server process from within Emacs
+- Demo
