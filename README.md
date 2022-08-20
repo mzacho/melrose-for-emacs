@@ -26,9 +26,7 @@ Clone repository, add it to your `load-path` and load the extension with
 
 Start the Melrōse language server by running `melrose` from a terminal prompt. By default it listens on port 8118 on the localhost.
 
-Open any `.mel` or `.melrose` files in Emacs and send requests to the language server. Receive MIDI in your favorite DAW or MIDI-to-OSC interface driving your modular rack (I for one can't wait trying this out with Expert Sleepers ES-3).
-
-dance, go nuts /
+Open any `.mel` or `.melrose` files in Emacs and send requests to the language server. Receive MIDI in your favorite DAW or MIDI-to-OSC interface driving your hardware. dance, go nuts
 
 ## Roadmap
 
